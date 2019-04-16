@@ -18,8 +18,8 @@ else
 fi
 
 export DEFAULT_ROOT_PATH
-envsubst  '${DEFAULT_ROOT_PATH}' </etc/nginx/conf.d/default.conf > /etc/nginx/conf.d/default.conf
-
+envsubst  '${DEFAULT_ROOT_PATH}' </etc/nginx/conf.d/default.conf > /etc/nginx/conf.d/default.conf.tmp
+mv /etc/nginx/conf.d/default.conf.tmp /etc/nginx/conf.d/default.conf
 
 sed -i "s|;listen.owner\s*=\s*nobody|listen.owner = ${PHP_FPM_USER}|g" /etc/php7/php-fpm.conf
 sed -i "s|;listen.group\s*=\s*nobody|listen.group = ${PHP_FPM_GROUP}|g" /etc/php7/php-fpm.conf
