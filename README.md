@@ -1,7 +1,7 @@
 docker-share
 ============
-[![](https://images.microbadger.com/badges/image/obedmr/share.svg)](http://microbadger.com/images/obedmr/keystone "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/obedmr/share.svg)](http://microbadger.com/images/obedmr/keystone "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/obedmr/share.svg)](http://microbadger.com/images/obedmr/share "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/obedmr/share.svg)](http://microbadger.com/images/obedmr/share "Get your own version badge on microbadger.com")
 
 Simple HTTP File Share Server
 
